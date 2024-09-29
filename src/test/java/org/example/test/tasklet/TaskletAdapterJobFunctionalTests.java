@@ -1,4 +1,4 @@
-package org.example.tasklet;
+package org.example.test.tasklet;
 
 /*
  * Copyright 2006-2023 the original author or authors.
@@ -16,12 +16,12 @@ package org.example.tasklet;
  * limitations under the License.
  */
 
+import org.example.test.utils.JobLauncherTestUtils;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.batch.core.BatchStatus;
 import org.springframework.batch.core.JobExecution;
 import org.springframework.batch.core.JobParametersBuilder;
-import org.springframework.batch.test.JobLauncherTestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
